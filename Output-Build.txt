@@ -1,0 +1,14 @@
+﻿Build started...
+Starting emulator pixel_5_-_api_33 ...
+1>------ Build started: Project: Notes, Configuration: Debug Any CPU ------
+1>C:\Program Files\dotnet\sdk\7.0.203\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Sdk.DefaultItems.Shared.targets(201,5): error NETSDK1022: Duplicate 'EmbeddedResource' items were included. The .NET SDK includes 'EmbeddedResource' items from your project directory by default. You can either remove these items from your project file, or set the 'EnableDefaultEmbeddedResourceItems' property to 'false' if you want to explicitly include them in your project file. For more information, see https://aka.ms/sdkimplicititems. The duplicate items were: 'Views\AboutPage.xaml'; 'Views\NotesPage.xaml'
+1>Done building project "Notes.csproj" -- FAILED.
+2>------ Build started: Project: Notes.Android, Configuration: Debug Any CPU ------
+C:\Program Files (x86)\Android\android-sdk\emulator\emulator.EXE -netfast -accel on -avd pixel_5_-_api_33 -prop monodroid.avdname=pixel_5_-_api_33
+2>CSC : error CS0006: Metadata file 'C:\Users\lauri\source\repos\Notes\Notes\obj\Debug\netstandard2.0\ref\Notes.dll' could not be found
+========== Build: 0 succeeded, 2 failed, 0 up-to-date, 0 skipped ==========
+========== Build started at 10:03 PM and took 01,250 seconds ==========
+========== Deploy: 0 succeeded, 0 failed, 0 skipped ==========
+========== Deploy started at 10:03 PM and took 01,250 seconds ==========
+Emulator pixel_5_-_api_33 is running.
+Waiting for emulator to be ready...
